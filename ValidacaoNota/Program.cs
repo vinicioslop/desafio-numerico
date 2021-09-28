@@ -1,37 +1,27 @@
 ﻿using System;
 
-namespace ValidacaoNota
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        double somaDasNotas = 0;
+        int contador = 0;
+
+        do
         {
-            //implente sua solução aqui
-            double nota1 = 0;
-            double nota2 = 0;
-            double media = 0;
+            double notaEntradaConsole = double.Parse(Console.ReadLine());
 
-            do
+            if (notaEntradaConsole < 0 || notaEntradaConsole > 10)
             {
-                nota1 = Convert.ToDouble(Console.ReadLine());
-
-                if (nota1 < 0 || nota1 > 10)
-                    Console.WriteLine("nota invalida");
-            } while (nota1 < 0 || nota1 > 10);
-
-            do
+                Console.WriteLine("nota invalida");
+            }
+            else
             {
-                nota2 = Convert.ToDouble(Console.ReadLine());
+                contador++;
+                somaDasNotas += notaEntradaConsole;
+            }
+        } while (contador < 2);
 
-                if (nota2 < 0 || nota2 > 10)
-                {
-                    Console.WriteLine("nota invalida");
-                }
-            } while (nota2 < 0 || nota2 > 10);
-
-            media = (nota1 + nota2) / 2;
-
-            Console.WriteLine($"media = {media}");
-        }
+        Console.WriteLine("media = " + (somaDasNotas / 2).ToString("N2"));
     }
 }
