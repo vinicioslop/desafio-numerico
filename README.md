@@ -7,4 +7,4 @@ Status dos exercícios:
 - Validação de Nota - ✔ em teste aberto, ⁉ porém falha no teste fechado
 - Tipos de Triangulo - ⁉ Dúvida em questão a lógica
 - Sequencia Lógica 2 - ✔
-- Coordenadas de um Ponto - ✔ em teste aberto, ⁉ porém falha no teste fechado
+- Coordenadas de um Ponto - ✔
