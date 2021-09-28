@@ -5,6 +5,6 @@ Status dos exercícios:
 - Tipo Combustivel - ✔
 - O Maior - ✔
 - Validação de Nota - ✔
-- Tipos de Triangulo - ⁉ Dúvida em questão a lógica
+- Tipos de Triangulo - ✔
 - Sequencia Lógica 2 - ✔
 - Coordenadas de um Ponto - ✔
