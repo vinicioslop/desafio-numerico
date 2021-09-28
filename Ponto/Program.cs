@@ -15,23 +15,23 @@ namespace Ponto
             {
                 Console.WriteLine("Origem");
             }
-            else if (x == 0 && y > 0 || y < 0)
+            else if ((x == 0) && (y != 0))
             {
                 Console.WriteLine("Eixo Y");
             }
-            else if (y == 0 && x > 0 || x < 0)
+            else if ((y == 0) && (x != 0))
             {
                 Console.WriteLine("Eixo X");
             }
-            else if (x > 0 && y > 0)
+            else if ((x > 0) && (y > 0))
             {
                 Console.WriteLine("Q1");
             }
-            else if (x < 0.0 && y > 0.0)
+            else if ((x < 0) && (y > 0))
             {
                 Console.WriteLine("Q2");
             }
-            else if (x < 0.0 && y < 0.0)
+            else if ((x < 0) && (y < 0))
             {
                 Console.WriteLine("Q3");
             }
