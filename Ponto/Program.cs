@@ -8,8 +8,11 @@ namespace Ponto
         {
             //complete os espaços em branco com sua solução para o problema
             string[] valores = Console.ReadLine().Split(' ');
-            double x = double.Parse(valores[0], CultureInfo.InvariantCulture);
-            double y = double.Parse(valores[1], CultureInfo.InvariantCulture);
+            double x = double.Parse(valores[0]);
+            double y = double.Parse(valores[1]);
+
+            //double x = double.Parse(valores[0], CultureInfo.InvariantCulture);
+            //double y = double.Parse(valores[1], CultureInfo.InvariantCulture);
 
             if (x == 0 && y == 0)
             {
