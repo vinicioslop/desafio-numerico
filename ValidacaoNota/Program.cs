@@ -16,10 +16,7 @@ namespace ValidacaoNota
                 nota1 = Convert.ToDouble(Console.ReadLine());
 
                 if (nota1 < 0 || nota1 > 10)
-                {
                     Console.WriteLine("nota invalida");
-                    continue;
-                }
             } while (nota1 < 0 || nota1 > 10);
 
             do
@@ -29,7 +26,6 @@ namespace ValidacaoNota
                 if (nota2 < 0 || nota2 > 10)
                 {
                     Console.WriteLine("nota invalida");
-                    continue;
                 }
             } while (nota2 < 0 || nota2 > 10);
 
